@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Exercise 30/">
+    <Project Path="Operations on a matrix/Operations on a matrix.csproj" Id="ea6440ab-09f4-4d09-9a8d-a0abc1f785bd" />
+  </Folder>
+  <Folder Name="/Exercise 35/">
+    <Project Path="Factorization/Factorization.csproj" Id="6a2d5f08-98a1-46b5-a515-212f39d13526" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared/Shared.csproj" Id="a5e42652-644d-47df-a32d-48e8aef09734" />
+  </Folder>
+</Solution>
