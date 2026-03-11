@@ -9,25 +9,25 @@ do
         Console.Write("Ingrese el número a descomponer: ");
         int numero = int.Parse(Console.ReadLine()!);
 
-        int divisor = 2;
+        int divider = 2;
 
-        Console.Write( $"{numero} = ");
+        Console.Write( $"{number} = ");
 
-        while (numero > 1)
+        while (number > 1)
         {
-            if (numero % divisor == 0)
+            if (number % divider == 0)
             {
                 Console.Write(divisor);
-                numero = numero / divisor;
+                number = number / divider;
 
-                if (numero > 1)
+                if (number > 1)
                 {
                     Console.Write(" x ");
                 }
             }
             else
             {
-                divisor++;
+                divider++;
             }
         }
     }
