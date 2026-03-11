@@ -18,20 +18,20 @@ do
             int valor = i + 1;
 
             // First column
-            Console.Write(valor + "\t");
-            suma += valor;
+            Console.Write(value + "\t");
+            sume += valor;
 
-            if (valor > max) max = valor;
-            if (valor < min) min = valor;
+            if (valor > max) max = value;
+            if (valor < min) min = value;
 
-            // Demás columnas
+            // Other columns
             for (int j = 1; j < n; j++)
             {
-                valor = i + 1 - j;
+                value = i + 1 - j;
 
-                Console.Write(valor + "\t");
+                Console.Write(value + "\t");
 
-                suma += valor;
+                sume += value;
 
                 if (valor > max) max = valor;
                 if (valor < min) min = valor;
@@ -40,7 +40,7 @@ do
             Console.WriteLine();
         }
 
-        Console.WriteLine($"La sumatoria es:    {suma}");
+        Console.WriteLine($"La sumatoria es:    {sume}");
         Console.WriteLine($"El valor máximo es: {max}");
         Console.WriteLine($"El valor mínimo es: {min}");
     }
