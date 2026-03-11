@@ -7,7 +7,7 @@ do
 {
     {
         Console.Write("Ingrese el número a descomponer: ");
-        int numero = int.Parse(Console.ReadLine()!);
+        int number = int.Parse(Console.ReadLine()!);
 
         int divider = 2;
 
