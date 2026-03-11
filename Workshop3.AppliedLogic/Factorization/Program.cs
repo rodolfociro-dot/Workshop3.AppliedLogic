@@ -17,7 +17,7 @@ do
         {
             if (number % divider == 0)
             {
-                Console.Write(divisor);
+                Console.Write(divider);
                 number = number / divider;
 
                 if (number > 1)
