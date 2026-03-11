@@ -9,20 +9,20 @@ do
         int n = int.Parse(Console.ReadLine()!);
 
 
-        int suma = 0;
+        int sume = 0;
         int max = int.MinValue;
         int min = int.MaxValue;
 
         for (int i = 0; i < n; i++)
         {
-            int valor = i + 1;
+            int value = i + 1;
 
             // First column
             Console.Write(value + "\t");
-            sume += valor;
+            sume += value;
 
-            if (valor > max) max = value;
-            if (valor < min) min = value;
+            if (value > max) max = value;
+            if (value < min) min = value;
 
             // Other columns
             for (int j = 1; j < n; j++)
