@@ -33,8 +33,8 @@ do
 
                 sume += value;
 
-                if (valor > max) max = valor;
-                if (valor < min) min = valor;
+                if (value > max) max = value;
+                if (value < min) min = value;
             }
 
             Console.WriteLine();
